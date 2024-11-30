@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="amarelo">#F29F05</color>
+    <color name="laranja">#F2790F</color>
+    <color name="verde">#3B7302</color>
+    <color name="areia">#F2EADF</color>
+    <color name="bum">#F26457</color>
 </resources>
