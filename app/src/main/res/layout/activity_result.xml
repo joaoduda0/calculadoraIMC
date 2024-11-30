@@ -64,7 +64,7 @@
         android:layout_marginTop="48dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A classificação do seu imc é:" />
+        android:text="A classificação do seu IMC é:" />
 
     <TextView
         android:id="@+id/classificacao"
@@ -73,6 +73,60 @@
         android:textStyle="bold"
         android:textSize="24dp"
         tools:text="TextView" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="48dp">
+
+    <TextView
+        android:id="@+id/tabela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Tabela:" />
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Menor que 18.5 - Magreza" />
+
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="18.5 a 24.9 - Normal" />
+
+    <TextView
+        android:id="@+id/d3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="25 a 29.9 - Sobrepeso" />
+
+    <TextView
+        android:id="@+id/d4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="30 a 39.9 - Obesidade" />
+
+    <TextView
+        android:id="@+id/d5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Maior que 40 - Obesidade grave" />
+
+</LinearLayout>
+
+
 
 
 </LinearLayout>
